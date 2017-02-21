@@ -1,0 +1,187 @@
+<html class="no-js" lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drum Score Editor :: Creating Scores</title>
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+	<div class="title-bar">
+		<div class="top-bar-title" style="padding: 0px ! important;">
+			<img width="67" src="images/topicon.png" /> <strong>Drum
+				Score Editor</strong>
+		</div>
+	</div>
+	
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<div class="expanded row">
+					<div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+						<a href="#docs-menu"
+							class="small secondary expanded button hide-for-medium">Jump
+							to Nav</a>
+
+
+						<header>
+							<div class="columns text-center">
+								<h1 class="docs-page-title">
+									Drum Score Editor <small>Creating Scores</small>
+								</h1>
+								<h5 class="subheader">Generating the score layout is the
+									way to go</h5>
+							</div>
+						</header>
+
+						<hr>
+
+
+
+						<div class="row">
+							<div class="columns">
+								<h5>Creating Drum Scores</h5>
+								<p>An important initial note is that the current version of
+									Drum Score Editor does not contain an auto-save feature. It is
+									recommended all work is saved often. Drum Score Editor does
+									track changes made, allowing undo of almost all actions which
+									change the content of the score, and will prompt the user to
+									save a score when closing it. Drum Score Editor will always be
+									over-cautious in detecting unsaved changes and depending on the
+									types of changes made, may choose to prompt the user to save in
+									any case.</p>
+								<h5>Generating New Scores</h5>
+								<p>One of the features that Drum Score Editor brings that
+									helps eliminate significant time and complexity usually found
+									in setting out a new score is the Score Setup Wizard, also
+									known as the Score Generator. Accessed through the File->New
+									menu, or on a Mac the CMD-N keystroke, CTRL-N on Windows, the
+									setup wizard prompts for the information needed to lay out the
+									score, using the dialogue box below.</p>
+								<img src="images/newscore.png" />
+								<p></p>
+								<b>Title</b>
+								<p>Drum Score Editor uses this information to store the
+									entered text in the title property of the score, and creates a
+									title text area, linked to the property on the generated score.
+								</p>
+								<b>Author</b>
+								<p>Drum Score Editor uses this information to store the
+									entered text in the author property of the score, and creates
+									an author text area, linked to the property on the generated
+									score.</p>
+								<b>Band</b>
+								<p>Drum Score Editor uses this information to store the
+									entered text in the band property of the score.</p>
+								<b>Tune Type</b>
+								<p>Drum Score Editor uses this information to store the
+									entered text in the tune type property of the score, and
+									creates a tune type text area, linked to the property on the
+									generated score. The value of the tune type is used in
+									conjunction with the other information provided in calculating
+									the number of bars in a part and where to use repeat bar marks.
+								</p>
+								<b>Time Signature</b>
+								<p>Drum Score Editor uses this information to store the
+									entered text in the time signature property of the score, and
+									creates a music area with no visible staff lines to hold the
+									time signature. The time signature in the music area is linked
+									to the property on the generated score, meaning if the time
+									signature is later changed in the score properties, the value
+									showing on the score in this music area will also be updated.</p>
+								<b>Number of parts</b>
+								<p>Drum Score Editor will create the appropriate number of
+									staff lines in a music area, as determined by a combination of
+									this information, the tune type, the time signature and the
+									bars per line. The current version of Drum Score Editor doesn’t
+									allow specification of additional staff lines for 1st and 2nd
+									times at initial score generation time, however these can be
+									added using the Format->Staff->Insert Staff menu items. As a
+									feature, all text areas in Drum Score Editor will always sit in
+									front of any music area, allowing placement of text anywhere on
+									the page, 1st and 2nd time text being common uses.</p>
+								<b>Bars per line</b>
+								<p>Drum Score Editor will use this information to determine
+									how many bars will appear on each staff line, and in
+									conjunction with the anacrusis setting, create bar lines at the
+									appropriate places on each staff line.</p>
+								<b>Beats per minute</b>
+								<p>Drum Score Editor will use this information to record the
+									preferred beats per minute for the score.</p>
+								<b>Anacrusis %</b>
+								<p>Drum Score Editor will leave the specified percentage of
+									each staff line free for any anacrusis required. If no
+									anacrusis space is required, this should be set to 0.</p>
+								<b>Paper Size</b>
+								<p>Drum Score Editor will create a single page of the
+									dimensions of the paper type specified. The current version of
+									Drum Score Editor understands the ISO A3 and A4 formats, plus
+									the American Legal and Letter sizes.</p>
+								<b>Page Orientation</b>
+								<p>Drum Score Editor uses the specified page orientation in
+									conjunction with the Paper Size setting to create a single page
+									of the right shape and size.</p>
+
+								<h5>The Generated Score</h5>
+								<p>The figure below shows the properties and layout of a
+									score generated by the Score Setup Wizard dialogue using a
+									landscape format for a 4 parted march.</p>
+								<img style="border: 1px solid black" src="images/generatedscore.png" />
+								<p></p>
+								<p>The Score Setup Wizard in Drum Score Editor will always
+									create the time signature, tune type, title and author text
+									areas at the top of the page as in the above figure, with the
+									time signature and tune type on the left hand side, the title
+									centred on the page and the author text area right aligned at
+									the right edge.</p>
+								<p>At the foot of the page is a text area with the band
+									name, and one with the date of score generation in it.</p>
+								<p>The music area is always created to use the rest of the
+									page and is pre-populated with the number of staff lines and
+									bar lines in the appropriate places, as determined by the
+									information provided in the Score Setup Wizard dialogue.</p>
+								<p>The position and size of of the generated text and music
+									areas can be changed using the mouse as described in Starting
+									Principles above.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="medium-3 large-2 medium-pull-9 large-pull-10 columns">
+						<ul class="vertical menu docs-nav" id="docs-menu">
+							<li class="docs-nav-title">Getting Started</li>
+							<li><a href="index.html">Overview</a></li>
+							<li><a href="index.html#principles">Principles</a></li>
+							<li><a href="index.html#visual-tour">Visual Tour</a></li>
+							<li><a href="index.html#menus">Menus</a></li>
+
+							<li class="docs-nav-title">Scores</li>
+							<li class="current"><a href="createscore.html">Creating</a></li>
+							<li><a href="textareas.html">Text Areas</a></li>
+							<li><a href="musicareas.html">Music Areas</a></li>
+							<li><a href="properties.html">Properties</a></li>
+
+							<li class="docs-nav-title">Advanced</li>
+							<li><a href="licensing.html">Licensing</a></li>
+							<li><a href="studiofeatures.html">Features</a></li>
+
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/what-input.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

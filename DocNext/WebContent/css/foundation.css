@@ -808,9 +808,8 @@ button {
   margin-right: auto;
   margin-left: auto; }
   .small-centered, .small-centered:last-child:not(:first-child) {
-    float: none;
-    clear: both; }
-
+    float: right; }
+    
 .small-uncentered,
 .small-push-0,
 .small-pull-0 {
