@@ -1,0 +1,101 @@
+
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<div class="expanded row">
+					<div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+						<a href="#docs-menu"
+							class="small secondary expanded button hide-for-medium">Jump
+							to Nav</a>
+
+
+						<header>
+							<div class="columns text-center">
+								<h1 class="docs-page-title">
+									Drum Score Editor <small>Text Areas</small>
+								</h1>
+								<h5 class="subheader">Areas containing any text that can be
+									placed anywhere the page of a score</h5>
+							</div>
+						</header>
+
+						<hr>
+
+
+
+
+						<div class="row">
+							<div class="columns">
+								<h5>Overview</h5>
+								<p>The intended purpose of the text areas is to present the
+									title, author, dates or any required text. There's no
+									restriction on what can be typed in the text areas. Text areas
+									have a transparent background and will always sit in front of
+									any music, which also allows them to be used for any
+									annotations required on the score.</p>
+								<p>Simple Formatting is supported, with a choice of a few
+									basic fonts and font sizes, plus the usual styles, bold, italic
+									and underline. Also the text can be aligned to the left, centre
+									or right of the containing area. To alter these properties
+									click inside the text box and used the Format -> Text menu
+									option.</p>
+								<h5>Text Substitutions</h5>
+								<p>The text in text areas can either be typed in directly or
+									can reference various score properties. When editing the
+									content of a text area, if the contents start with a % sign,
+									Drum Score Editor will use the remainder of the contents to
+									look up the score properties for the associated value.
+									Currently the following substitutions are supported:</p>
+								<table>
+									<thead>
+										<tr>
+											<th width="200">Variable</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>%title</td>
+											<td>The title of the drum score</td>
+										</tr>
+										<tr>
+											<td>%author</td>
+											<td>The author of the drum score</td>
+										</tr>
+										<tr>
+											<td>%band</td>
+											<td>The name of the band the score was written for</td>
+										</tr>
+										<tr>
+											<td>%filename</td>
+											<td>The full name of the file containing the score on
+												the local PC / laptop</td>
+										</tr>
+										<tr>
+											<td>%tunetype</td>
+											<td>The type of tune, the intended use of this field is
+												to document if it's a March, Reel etc</td>
+										</tr>
+										<tr>
+											<td>%version</td>
+											<td>The version of the score as documented by the author</td>
+										</tr>
+									</tbody>
+								</table>
+								<p>The content of all these variables is taken from the
+									score properties, accessed from the File -> Properties menu
+									option. When the score generator is used to create a new score
+									these are populated with answers provided by the user at
+									generation time.</p>
+							</div>
+						</div>
+					</div>
+
+					{{> navigation}}
+					
+				</div>
+			</div>
+		</div>
+	</div>

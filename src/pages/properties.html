@@ -1,0 +1,215 @@
+
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<div class="expanded row">
+					<div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+						<a href="#docs-menu"
+							class="small secondary expanded button hide-for-medium">Jump
+							to Nav</a>
+
+
+						<header>
+							<div class="columns text-center">
+								<h1 class="docs-page-title">
+									Drum Score Editor <small>Properties</small>
+								</h1>
+								<h5 class="subheader">Setting the properties of a score</h5>
+							</div>
+
+						</header>
+
+						<hr>
+
+
+						<div class="row">
+							<div class="columns">
+								<h5>Overview</h5>
+								<p>Stored with each score are a set of values or properties
+									which define the score and determine how it will appear on the
+									screen. Many of these are initially set when the score is
+									generated or are set to a default value within Drum Score
+									Editor. For convenience, licensed users can specify many of
+									these default values that will be used every time a score is
+									generated, for example an individuals preference might be to
+									always write scores where unison is highlighted in purple, or
+									always show triplets below the staff note for example - by
+									specifying as a default preference it avoids having to set it
+									manually each time after a score is generated.</p>
+								<p>There are two major groupings of properties that can be
+									set, the general attributes of a score such as the title,
+									author etc, and then the options which determine how the score
+									is represented such as unison colour or lines. All these are
+									accessed through the File -> Properties menu item, or the
+									spanner icon on the toolbar, both of which, given this is all
+									about settings properties of a score, are only enabled if
+									there's a score loaded.</p>
+								<h5>Properties</h5>
+								<p>The first tab in the Score Properties dialog deals with
+									the core attributes of the score as shown.</p>
+								<img src="assets/img/propertiestab.png" />
+
+								<p></p>
+								<table>
+									<thead>
+										<tr>
+											<th width="200">Name</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Title</td>
+											<td>The title of the drum score</td>
+										</tr>
+										<tr>
+											<td>Author</td>
+											<td>The author of the drum score</td>
+										</tr>
+										<tr>
+											<td>Band</td>
+											<td>The name of the band the score was written for</td>
+										</tr>
+										<tr>
+											<td>Version</td>
+											<td>The version number the author wants stored with the
+												score</td>
+										</tr>
+										<tr>
+											<td>Tune Type</td>
+											<td>The type of tune, the intended use of this field is
+												to document if it's a March, Reel etc. Drum Score Editor
+												uses this at score generation time to determine number of
+												bars in a part, repeats etc however it's also used in some
+												of the more advanced features for automatically
+												re-positioning notes</td>
+										</tr>
+										<tr>
+											<td>Time Signature</td>
+											<td>The time signature of the score. The options are to
+												use either Common (4/4) or Cut Common (2/2) or specify
+												manually the time signature wanted. This information is
+												provided and used at initial score generation and then when
+												determining smart spacing and re-positioning of notes in
+												some of the more advanced features. Note changes in time
+												signature can be noted within a music area however only the
+												time signature specified here is considered during advanced
+												layout features.</td>
+										</tr>
+										<tr>
+											<td>Bpm</td>
+											<td>Beats Per Minute. This is documentary only at this
+												stage and specifies the intended pace the score was written
+												for.</td>
+										</tr>
+										<tr>
+											<td>Font & Font Size</td>
+											<td>The font face size that will be used for any new
+												text areas inserted.</td>
+										</tr>
+										<tr>
+											<td>Filename</td>
+											<td>The filename this score was last saved as. It can't
+												be set here, this is displayed for informational purposes
+												only.</td>
+										</tr>
+									</tbody>
+								</table>
+								<p>The content of all these variables is taken from the
+									score properties, accessed from the File -> Properties menu
+									option. When the score generator is used to create a new score
+									these are populated with answers provided by the user at
+									generation time.</p>
+								<h5>Options</h5>
+								<p>The options tab deals with various ways the score can be
+									represented.</p>
+								<img src="assets/img/optionstab.png" />
+
+								<p></p>
+								<table>
+									<thead>
+										<tr>
+											<th width="200">Option</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Draw line above Unison</td>
+											<td>Setting this option results in a line being drawn
+												above any note or phrases marked as unison in the score</td>
+										</tr>
+										<tr>
+											<td>Use colour to highlight unison</td>
+											<td>Many drummers take a score and use a highlighter pen
+												to more easily see the unison sections. This option allows
+												Drum Score Editor to do that bit for you.</td>
+										</tr>
+										<tr>
+											<td>Colour to highlight unison</td>
+											<td>If you are going to use colour to highlight unison,
+												this lets you determine which colour will be used.</td>
+										</tr>
+										<tr>
+											<td>Change highlighter colours</td>
+											<td>Many authors use different highlight colours to mean
+												different things. There are 6 possible pens to use which
+												Drum Score editor and the colour they each draw is
+												determined here</td>
+										</tr>
+										<tr>
+											<td>Use modern roll notation</td>
+											<td>Scores can get really busy, to keep them cleaner the
+												author can specify that only one strike through a note stem
+												is used to signify a roll. Traditionalist sight readers
+												don't like this, and want the two or sometimes 3 strikes.
+												The number of strikes through the stem doesn't really mean
+												much in modern drumming. Happy to discuss the musical theory
+												behind them but it's mostly history.</td>
+										</tr>
+										<tr>
+											<td>Use lines for note heads</td>
+											<td>Some authors prefer to use a line for the note head
+												rather that the elipse. How to differentiate between a minim
+												and a crotchet is beyond this humble drummer when these are
+												used.</td>
+										</tr>
+										<tr>
+											<td>Proportional Spacing</td>
+											<td>Have Drum Score Editor automatically advance the
+												cursor the right distance when entering notes.</td>
+										</tr>
+										<tr>
+											<td>Roll ties below accents</td>
+											<td>Determine placement of where ties that signify rolls
+												start and end. On occasion the author may wish to have them
+												appear above accents in a score.</td>
+										</tr>
+										<tr>
+											<td>Irregular groups below notes</td>
+											<td>Have Drum Score Editor put triplets and other
+												irregular groups below the notes rather than above. Can be
+												useful for decluttering scores.</td>
+										</tr>
+									</tbody>
+								</table>
+								<p>The content of all these variables is taken from the
+									score properties, accessed from the File -> Properties menu
+									option. When the score generator is used to create a new score
+									these are populated with answers provided by the user at
+									generation time.</p>
+							</div>
+						</div>
+
+
+
+					</div>
+
+					{{> navigation}}
+					
+				</div>
+			</div>
+		</div>
+	</div>

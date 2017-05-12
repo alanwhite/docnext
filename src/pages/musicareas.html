@@ -1,0 +1,485 @@
+
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<div class="expanded row">
+					<div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+						<a href="#docs-menu"
+							class="small secondary expanded button hide-for-medium">Jump
+							to Nav</a>
+
+
+						<header>
+							<div class="columns text-center">
+								<h1 class="docs-page-title">
+									Drum Score Editor <small>Music Areas</small>
+								</h1>
+								<h5 class="subheader">Areas on the score containing staff
+									lines and music elements, including optional text tags</h5>
+							</div>
+						</header>
+
+						<hr>
+
+						<div class="row">
+							<div class="columns">
+								<h5>Overview</h5>
+								<p>A music area is used to contain one or more staff lines,
+									each containing bar lines, notes and other required musical
+									symbols to create a score.</p>
+								<p>Music areas can be created manually from the Insert menu,
+									however due to the complex number of options and infinite
+									variability in how these can be laid, it is strongly
+									recommended to generate the main music area on any page.</p>
+								<p>The user can control the base point size used for drawing
+									and printing all the symbols in a area form the Format -> Music
+									menu option. Please note setting the point size is a change to
+									how the user wants the score displayed and printed, i.e. the
+									contents are drawn smaller larger according to the point size,
+									as opposed to zooming the page which is used to temporarily
+									achieve finer control over note placement or better visibility
+									on small screens.</p>
+								<h5>Staff Lines</h5>
+								<p>Each Music Area contains one or more Staff Lines on which
+									the music is laid out. Adding or removing staff lines from the
+									music area can be achieved using the menu options available at
+									Format -> Music, or additional staff lines from the Insert
+									menu. For speed of editing the keystrokes below are also
+									available.</p>
+								<table>
+									<caption>Staff Line Actions</caption>
+									<thead>
+										<tr>
+											<th width="200">Keystroke</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Ctrl-i</td>
+											<td>Inserts staff line before line containing the cursor</td>
+										</tr>
+										<tr>
+											<td>Ctrl-k</td>
+											<td>Appends a staff line below line containing the
+												cursor</td>
+										</tr>
+										<tr>
+											<td>Ctrl-o</td>
+											<td>Deletes staff line containing the cursor, including
+												all notes and bars on that line</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<h5>Navigating Around A Staff Area</h5>
+								<p>Click (or tab) inside a music area and a flashing cursor
+									becomes visible indicating where the next note will be
+									inserted. The arrow keys move the cursor one unit in each
+									direction,e.g. the up arrow moves the cursor up one staff line,
+									the right arrow moves the cursor one step along the staff line.</p>
+								<p>Each horizontal step on a staff line is 1/72nd of an
+									inch, at an actual size zoom. If the score is zoomed to 200%
+									then each step is 1/36 of an inch. As can be seen by this, some
+									very fine control over placement of notes can be achieved by
+									using the zoom feature.</p>
+								<p>The Backspace key has a special function when there's no
+									selection in a music area. The backspace key will cause the
+									caret to move to the right hand edge of the note immediately to
+									it's left, i.e. moves the caret backwards to just after the
+									first note it finds. Pressing Backspace again, whilst the caret
+									is placed immediately to the right of a note has the effect of
+									selecting that note and moving the caret to left hand side of
+									the note. If the user presses Backspace at this point, the note
+									will be deleted, as defined below in the selection keystroke
+									actions.</p>
+								<p>This means the backspace key can be used to skip
+									backwards along a line positioning itself and deleting notes on
+									the way. If there are no prior notes on the line the caret will
+									be moved to the start of the line. If the caret is already at
+									the start of the line it moves up the prior line and positions
+									itself just after the last note on that line.</p>
+								<p>The above description applies equally to bar lines if
+									Edit -> Bar is ticked, and may exclude notes if Bar -> Notes is
+									unticked, this would be the case for example if the user wanted
+									to delete only bar lines using the backspace key as perhaps new
+									ones are to be entered aligned differently.</p>
+								<p>While editing a music area, the space bar can be used to
+									move to the next bar line. The cursor is placed at the start of
+									the first note in the next bar, if the next bar is empty it's
+									placed at the very start of the bar. This means that when the
+									next bar line is the last one on the line, and the next line
+									has space for an anacrusis which isn't used, the cursor stays
+									on the bar line at the end of that line. If there is an
+									anacrusis, the cursor is placed at the start of it's first
+									note.</p>
+
+								<h5>Entering Notes, Bars & Time Signatures</h5>
+								<p>Each music area contains a caret, or cursor, which
+									indicates where new notes, bars or other items will be
+									inserted. Every item that appears on a staff line can be
+									entered using the buttons on the toolbox or, for the more
+									advanced user with a single keystroke, similar in the way text
+									is added when typing a new paragraph or characters in a word
+									processor.
+								<p></p>
+								When a new note is typed, the cursor moves the appropriate
+								distance along the staff line, as determined by the duration of
+								the note just typed. This positions the cursor in the correct
+								relative position for the next note. This smart spacing feature
+								can be disabled as preferred in the options tab in the
+								properties settings accessed using the File->Properties menu
+								item.
+								</p>
+								<table>
+									<caption>New Note and Rest Entry Actions</caption>
+									<thead>
+										<tr>
+											<th width="200">Keystroke</th>
+											<th>Value</th>
+											<th>On It's Own</th>
+											<th>With Shift</th>
+											<th>With Ctrl</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>a</td>
+											<td>Semibreve</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>Minim</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+										<tr>
+											<td>d</td>
+											<td>Crotchet</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td>Quaver</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+										<tr>
+											<td>g</td>
+											<td>Semiquaver</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td>Demisemiquaver</td>
+											<td>Left Hand</td>
+											<td>Right Hand</td>
+											<td>Rest</td>
+										</tr>
+									</tbody>
+								</table>
+								<p></p>
+								<table>
+									<caption>Bar Line, Time Signature and Clef Symbol
+										Entry</caption>
+									<thead>
+										<tr>
+											<th width="200">Keystroke</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>q</td>
+											<td>Open double repeat bar</td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>Open double bar</td>
+										</tr>
+										<tr>
+											<td>e</td>
+											<td>Single bar line</td>
+										</tr>
+										<tr>
+											<td>o</td>
+											<td>Close double bar</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>Close double repeat bar</td>
+										</tr>
+										<tr>
+											<td>shift-t</td>
+											<td>Open dialog to insert time signature</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>Bass Clef</td>
+										</tr>
+										<tr>
+											<td>shift-j</td>
+											<td>Treble Clef</td>
+										</tr>
+									</tbody>
+								</table>
+								<p></p>
+
+								<h5>Selecting Notes, Bars, Time Signatures & Clef Symbols</h5>
+								<p>Any items on a staff line can be selected using actions
+									familiar to word processor users. Either using the shift and
+									arrow keys to select in the direction away from the current
+									caret position, or using click and drag gestures with the
+									mouse. Also, a single click while the shift key is held down
+									will result in all items between the caret and click position
+									to become selected.</p>
+								<p>A user can control which types of items on a staff line
+									are selected with the above processes by using the Edit->Bars
+									and Edit->Notes options on the main menu. If the Notes option
+									is ticked, then select actions will apply to notes and rests,
+									and if the Bars option is ticked bars and other items will also
+									be selected. This is a useful feature if a user has spent time
+									creating a custom layout of bars and wants to avoid
+									inadvertently moving bar markers when manipulating notes. When
+									the generator is used to create a score layout, the Bars option
+									is automatically unticked.</p>
+								<p>When shift and arrow is used to move the end of the
+									selection area to include the next note along, the caret is
+									left at the end of the note in the direction of the arrow.
+									Meaning if the user selects from the right using the short and
+									arrow key combinations, the caret is left positioned exactly at
+									the place the left most selected note starts. This can be
+									useful for inserting or pasting notes in exactly that position
+									on different lines, helping with complete alignment.</p>
+								<h5>Performing Actions on Selected Items on a Staff Line</h5>
+								<p>Once items on a staff line are selected a number of
+									actions can be performed on the selection, once again using
+									either the associated buttons on the toolbox, or for advanced
+									speed a single keystroke. Many of the more advanced features
+									are only available by keystroke, for example shift-u and
+									shift-l.</p>
+								<table>
+									<caption>List of Available Actions on Selected Items</caption>
+									<thead>
+										<tr>
+											<th width="200">Keystroke</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Shift-k</td>
+											<td>switches hands on selected note(s)</td>
+										</tr>
+										<tr>
+											<td>u</td>
+											<td>toggles whether selected note(s) are marked as
+												unison or not</td>
+										</tr>
+										<tr>
+											<td>Shift-u</td>
+											<td>toggles whether unison in selected note(s) is marked
+												as short</td>
+										</tr>
+										<tr>
+											<td>y</td>
+											<td>toggles whether selected note(s) are accented or not</td>
+										</tr>
+										<tr>
+											<td>Shift-y</td>
+											<td>toggles whether selected note(s) are light accented
+												or not, i.e. vertical accent sign</td>
+										</tr>
+										<tr>
+											<td>r</td>
+											<td>toggles whether selected note(s) are rolls or not</td>
+										</tr>
+										<tr>
+											<td>shift-r</td>
+											<td>override that cycles through number of strikes
+												through a stem for rolls</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>toggles whether selected note(s) are bound with a
+												tie or not</td>
+										</tr>
+										<tr>
+											<td>shift-b</td>
+											<td>toggles whether the selected note(s) are backstick
+												or not</td>
+										</tr>
+										<tr>
+											<td>shift-m</td>
+											<td>double the duration of the selected note(s)</td>
+										</tr>
+										<tr>
+											<td>shift-n</td>
+											<td>halves the duration of the selected note(s)</td>
+										</tr>
+										<tr>
+											<td>ctrl-t</td>
+											<td>toggles whether selected item has a text tag or not</td>
+										</tr>
+										<tr>
+											<td>2,3,4,5,6,7,8,9</td>
+											<td>toggles whether selected note(s) are in an irregular
+												grouping as defined by the number typed</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td>toggles whether selected note(s) have their note
+												tails beamed or not</td>
+										</tr>
+										<tr>
+											<td>Shift-l</td>
+											<td>toggles whether selected note should only have a
+												single tail line backspaced</td>
+										</tr>
+										<tr>
+											<td>z</td>
+											<td>toggles whether selected note(s) have a flam grace
+												note or not</td>
+										</tr>
+										<tr>
+											<td>x</td>
+											<td>toggles whether selected note(s) have drag grace
+												notes or not</td>
+										</tr>
+										<tr>
+											<td>c</td>
+											<td>toggles whether selected note(s) have open drag
+												grace notes or not</td>
+										</tr>
+										<tr>
+											<td>v</td>
+											<td>toggles whether selected note(s) have swiss rough
+												grace notes or not</td>
+										</tr>
+										<tr>
+											<td>b</td>
+											<td>toggles whether selected note(s) have rough grace
+												notes or not</td>
+										</tr>
+										<tr>
+											<td>.</td>
+											<td>(dot key) toggles whether selected note(s) are
+												dotted or not, note if exactly 2 notes are selected it
+												assume dot the first and cut the second</td>
+										</tr>
+										<tr>
+											<td>shift-.</td>
+											<td>(shift and dot key) toggles whether the selected
+												note(s) are treated as double dotted or not</td>
+										</tr>
+										<tr>
+											<td>-</td>
+											<td>(hyphen, or dash key) toggles whether the selected
+												note(s) are treated as cut or not</td>
+										</tr>
+										<tr>
+											<td>Shift-0, 1, 2,3,4,5</td>
+											<td>toggles whether selected note(s) are highlighted
+												with pen 0 thru 5 as appropriate or not</td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>if more than one note is selected this toggles
+												whether selected note(s) are crescendo or not, if only a
+												single note is selected this creates a tie to the end of bar
+												for those roll to nowhere situatons</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>toggles whether selected note(s) are diminuendo or
+												not</td>
+										</tr>
+										<tr>
+											<td>Del</td>
+											<td>deletes current selection</td>
+										</tr>
+										<tr>
+											<td>Backspace</td>
+											<td>deletes current selection</td>
+										</tr>
+										<tr>
+											<td>Esc</td>
+											<td>cancels current selection</td>
+										</tr>
+										<tr>
+											<td>Shift-Alt- Right, Left, Up, Down Arrow</td>
+											<td>nudges the selection one unit in appropriate
+												direction on a Mac</td>
+										</tr>
+										<tr>
+											<td>Shift-Ctrl- Right, Left, Up, Down Arrow</td>
+											<td>nudges the selection one unit in appropriate
+												direction on a Windows PC</td>
+										</tr>
+										<tr>
+											<td>Cmd-A, C, V, X</td>
+											<td>Selects, Copies, Pastes, Cuts all notes in the music
+												area on a Mac</td>
+										</tr>
+										<tr>
+											<td>Ctrl-A, C, V, X</td>
+											<td>Selects, copies, pastes and cuts selection on a
+												Windows PC</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<h5>Text Tags</h5>
+								<p>Text can be attached to each note, rest or bar line (i.e.
+									any element) on a staff. Select the element that is to have the
+									text attached to it and use ctrl-t to add or delete the text
+									entry. The advantage of text tags in the music area as opposed
+									to the current ability to add text areas anywhere on the page
+									is that they stay aligned with the element they're attached to.
+									This means when an additional staff line is added or removed,
+									the text tag moves with the note, rest or bar line it's
+									attached to. Similarly if you move that element along the staff
+									line, cut, copy or paste it, the text moves with it.</p>
+								<p>A text tag can be aligned horizontally around the element
+									it's attached to. By clicking inside the text tag and using the
+									Format -> Text menu, all the text formatting options can be
+									applied. By selecting Align Left, the text tag starts with the
+									first character above the element. Selecting Align Right causes
+									the text tag to finish above the element. Align Centre does as
+									expected, with the text tag centred over the element.</p>
+								<p>The text is styled using the same menu options, once
+									again click inside the text tag and use the Format -> Text menu
+									options to apply bold, italic or underline styling, change the
+									font between serif or sans-serif, and alter the point size
+									between the pre-selected sizes.</p>
+								<p>The last option is to be able to position the text either
+									above or below the element it's attached to. Click inside the
+									text tag and use the Alt and UP or DOWN arrow together to move
+									it above or below. Currently the distance above or below the
+									staff line is fixed, but the capability is in the software to
+									add actions to customize the distance in future versions.</p>
+
+							</div>
+						</div>
+
+
+
+					</div>
+
+					{{> navigation}}
+
+				</div>
+			</div>
+		</div>
+	</div>

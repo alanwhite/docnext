@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score>
+  <properties>
+    <software name="Drum Score Editor (c) Alan White 2012 - 2016" version="2.6.beta.1"/>
+    <movement-title>Winnipeg Forger</movement-title>
+    <author>David Coll</author>
+    <tune-type>Hornpipe</tune-type>
+    <version>1</version>
+    <band>Strathclyde Fire &amp; Rescue</band>
+    <defaults>
+      <zoom>0.75</zoom>
+      <font>Serif</font>
+      <font-size>12</font-size>
+      <unison paint-under="false" unison-colour="-256" unison-opacity="0.33000001311302185" use-colour="true" use-line="false"/>
+      <smart-space>true</smart-space>
+      <show-side-drum>true</show-side-drum>
+      <show-tenor-drum>true</show-tenor-drum>
+      <roll-tie-below-accent>true</roll-tie-below-accent>
+      <irregular-groups-below>false</irregular-groups-below>
+      <thin-unison-pen>false</thin-unison-pen>
+      <auto-beam>true</auto-beam>
+      <pen0>-16776961</pen0>
+      <pen1>-16711681</pen1>
+      <pen2>-4144960</pen2>
+      <pen3>-14336</pen3>
+      <pen4>-16711936</pen4>
+      <pen5>-20561</pen5>
+    </defaults>
+    <time-signature bottom="4" top="2" use-common="false"/>
+    <bars-per-part>8</bars-per-part>
+    <beats-per-minute>76</beats-per-minute>
+    <page-format>
+      <page-size height="841.8897705078125" width="595.2755489349365"/>
+      <orientation>Landscape</orientation>
+    </page-format>
+  </properties>
+  <text-area id="">
+    <text align="centre">Winnipeg Forger</text>
+    <font>Serif</font>
+    <font-size>16</font-size>
+    <style bold="true" italic="true" underline="true"/>
+    <bounds height="34" width="253" x="188" y="9"/>
+  </text-area>
+  <text-area id="">
+    <text align="right">David Coll</text>
+    <font>Serif</font>
+    <font-size>10</font-size>
+    <style bold="false" italic="false" underline="false"/>
+    <bounds height="34" width="94" x="504" y="14"/>
+  </text-area>
+  <text-area id="">
+    <text align="left">Hornpipe</text>
+    <font>Serif</font>
+    <font-size>10</font-size>
+    <style bold="false" italic="false" underline="false"/>
+    <bounds height="34" width="94" x="52" y="14"/>
+  </text-area>
+  <text-area id="">
+    <text align="left">Strathclyde Fire &amp; Rescue Pipe Band</text>
+    <font>Serif</font>
+    <font-size>10</font-size>
+    <style bold="false" italic="false" underline="false"/>
+    <bounds height="36" width="254" x="29" y="409"/>
+  </text-area>
+  <text-area id="">
+    <text align="right">6-Jul-2009</text>
+    <font>Serif</font>
+    <font-size>10</font-size>
+    <style bold="false" italic="false" underline="false"/>
+    <bounds height="36" width="94" x="504" y="409"/>
+  </text-area>
+  <manuscript id="generated-single-music-area" lines-visible="true" point-size="24.0">
+    <bounds height="379" width="569" x="29" y="43"/>
+    <staff>
+      <bar-line repeat="true" type="double-open">
+        <location xpercent="0.0" y="0.0"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.049765845185916945" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.0648185622382141" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0807649343396623" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.11087036844425663" y="0.0"/>
+      </note>
+      <note grace-note="flam" hand="right" value="quaver">
+        <location xpercent="0.14276311264715302" y="0.0"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="quaver">
+        <location xpercent="0.18778184502077416" y="0.0"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="0.0"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.28187233621960467" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.2974354677922031" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.3129985993648015" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.3285617309373999" y="0.0"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.35343240873853954" y="0.0"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.3863459819820384" y="0.0"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.410323004734027" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" value="quaver">
+        <location xpercent="0.44859850827243203" y="0.0"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="0.0"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.51295799821269" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5440842613578867" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5596473929304852" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.5752105245030835" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.590773656075682" y="0.0"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.6063367876482804" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.6218999192208787" y="0.0"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="0.0"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.668589313938674" y="0.0"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.6943536467889646" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.7308418402290676" y="0.0"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="0.0"/>
+      </bar-line>
+      <note buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7631814119749777" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7941857362910025" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8251900606070274" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.8561943849230523" y="0.0"/>
+      </note>
+      <note accent="full" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8871987092390772" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9182030335551019" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.9492073578711268" y="0.0"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9802116821871515" y="0.0"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.9990244893666242" y="0.0"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line type="single">
+        <location xpercent="0.0" y="82.375"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.050659500235067975" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.06571221728736514" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0807649343396623" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.11087036844425663" y="82.375"/>
+      </note>
+      <note grace-note="flam" hand="right" value="quaver">
+        <location xpercent="0.14276311264715302" y="82.375"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="quaver">
+        <location xpercent="0.18778184502077416" y="82.375"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="82.375"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.28187233621960467" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.2974354677922031" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.3129985993648015" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.3285617309373999" y="82.375"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.35343240873853954" y="82.375"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.3863459819820384" y="82.375"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.410323004734027" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="quaver">
+        <location xpercent="0.44859850827243203" y="82.375"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="82.375"/>
+      </bar-line>
+      <note buzz="true" grace-note="flam" hand="right" roll-strikes="2" value="quaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.51295799821269" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.5752105245030835" y="82.375"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.6000812023042231" y="82.375"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="82.375"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.6623337285946168" y="82.375"/>
+      </note>
+      <note beam="true" buzz="true" grace-note="flam" hand="right" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.6934599917398137" y="82.375"/>
+      </note>
+      <note beam="true" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7308418402290676" y="82.375"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="82.375"/>
+      </bar-line>
+      <note accent="full" hand="left" value="demisemiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7619681033742645" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7769672678676207" y="82.375"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.7919664323609769" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.8069655968543331" y="82.375"/>
+      </note>
+      <note accent="full" beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.8219647613476894" y="82.375"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.8519630903344018" y="82.375"/>
+      </note>
+      <note grace-note="flam" hand="left" value="crotchet">
+        <location xpercent="0.8819614193211143" y="82.375"/>
+      </note>
+      <bar-line repeat="true" type="double-close">
+        <location xpercent="0.9909765267321254" y="82.375"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line repeat="true" type="double-open">
+        <location xpercent="0.0" y="164.75"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.04899936412821737" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.06456249570081578" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.0801256272734142" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.0956887588460126" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.11125189041861101" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.12681502199120942" y="164.75"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.14237815356380784" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.1717171066107026" y="164.75"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.19658778441184221" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.21954397812322834" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.23459669517552553" y="164.75"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="164.75"/>
+      </bar-line>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.27740406097384956" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.292967192546448" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.3085303241190464" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.3240934556916448" y="164.75"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.3480704784436334" y="164.75"/>
+      </note>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.38634598198203846" y="164.75"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.41211031483232907" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.4485985082724321" y="164.75"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.4725755310244206" y="164.75"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="164.75"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.51295799821269" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5440842613578867" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5596473929304852" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.5752105245030835" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.590773656075682" y="164.75"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.6063367876482804" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.6218999192208787" y="164.75"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="164.75"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.668589313938674" y="164.75"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.6943536467889646" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.7308418402290676" y="164.75"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="164.75"/>
+      </bar-line>
+      <note buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7631814119749777" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7941857362910025" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8251900606070274" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.8561943849230523" y="164.75"/>
+      </note>
+      <note accent="full" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8871987092390772" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9182030335551019" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.9492073578711268" y="164.75"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9802116821871515" y="164.75"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.9990244893666242" y="164.75"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line type="single">
+        <location xpercent="0.0" y="247.125"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.04899936412821737" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.06456249570081578" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.0801256272734142" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.0956887588460126" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.11125189041861101" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.12681502199120942" y="247.125"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.14237815356380784" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.1717171066107026" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.19658778441184221" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.21954397812322834" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.23459669517552553" y="247.125"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="247.125"/>
+      </bar-line>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.27740406097384956" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.292967192546448" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.3085303241190464" y="247.125"/>
+      </note>
+      <note accent="full" beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.3240934556916448" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.3480704784436334" y="247.125"/>
+      </note>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.38634598198203846" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.41211031483232907" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.4485985082724321" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.4725755310244206" y="247.125"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="247.125"/>
+      </bar-line>
+      <note buzz="true" grace-note="flam" hand="right" roll-strikes="2" value="quaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.51295799821269" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.5752105245030835" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.6000812023042231" y="247.125"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="247.125"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.6623337285946168" y="247.125"/>
+      </note>
+      <note beam="true" buzz="true" grace-note="flam" hand="right" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.6934599917398137" y="247.125"/>
+      </note>
+      <note beam="true" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7308418402290676" y="247.125"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="247.125"/>
+      </bar-line>
+      <note accent="full" hand="left" value="demisemiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7619681033742645" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7769672678676207" y="247.125"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.7919664323609769" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.8069655968543331" y="247.125"/>
+      </note>
+      <note accent="full" beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.8219647613476894" y="247.125"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.8519630903344018" y="247.125"/>
+      </note>
+      <note grace-note="flam" hand="left" value="crotchet">
+        <location xpercent="0.8819614193211143" y="247.125"/>
+      </note>
+      <bar-line repeat="true" type="double-close">
+        <location xpercent="0.9909765267321254" y="247.125"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line repeat="true" type="double-open">
+        <location xpercent="0.0" y="329.5"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.04631839898076424" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0801256272734142" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.10410265002540274" y="329.5"/>
+      </note>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.14237815356380784" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.16622800232434495" y="329.5"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.18203495564252284" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.1992687495592953" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.21775666802492624" y="329.5"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="329.5"/>
+      </bar-line>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.26184092940125114" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.2849242971040887" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.3118856121537087" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.3357354609142458" y="329.5"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.35154241423242366" y="329.5"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.38634598198203846" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.41211031483232907" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.4485985082724321" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.4725755310244206" y="329.5"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="329.5"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.5111706881143878" y="329.5"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5430634323172843" y="329.5"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.5581161493695814" y="329.5"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.5740625214710297" y="329.5"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.6041679555756239" y="329.5"/>
+      </note>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.6336014298480787" y="329.5"/>
+      </note>
+      <note beam="true" grace-note="drag" hand="right" value="semiquaver">
+        <location xpercent="0.6593657626983693" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.6958539561384722" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.726980219283669" y="329.5"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="329.5"/>
+      </bar-line>
+      <note buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7613941018766756" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7923984261927005" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8234027505087254" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.8544070748247502" y="329.5"/>
+      </note>
+      <note accent="full" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.8854113991407752" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" hand="right" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9164157234567999" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" buzz="true" hand="left" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.9474200477728246" y="329.5"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.9784243720888495" y="329.5"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.9990244893666242" y="329.5"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line type="single">
+        <location xpercent="0.0" y="411.875"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.04631839898076424" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0801256272734142" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.10410265002540274" y="411.875"/>
+      </note>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.14237815356380784" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.16622800232434495" y="411.875"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.18203495564252284" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.1992687495592953" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.21775666802492624" y="411.875"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="411.875"/>
+      </bar-line>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.26184092940125114" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.2849242971040887" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.3118856121537087" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.3357354609142458" y="411.875"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.35154241423242366" y="411.875"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.38634598198203846" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.41211031483232907" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.4485985082724321" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.4725755310244206" y="411.875"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="411.875"/>
+      </bar-line>
+      <note buzz="true" grace-note="flam" hand="right" roll-strikes="2" value="quaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.51295799821269" y="411.875"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.5752105245030835" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.6000812023042231" y="411.875"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="411.875"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.6623337285946168" y="411.875"/>
+      </note>
+      <note beam="true" buzz="true" grace-note="flam" hand="right" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.6934599917398137" y="411.875"/>
+      </note>
+      <note beam="true" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7308418402290676" y="411.875"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="411.875"/>
+      </bar-line>
+      <note accent="full" hand="left" value="demisemiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7619681033742645" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7769672678676207" y="411.875"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.7919664323609769" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.8069655968543331" y="411.875"/>
+      </note>
+      <note accent="full" beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.8219647613476894" y="411.875"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.8519630903344018" y="411.875"/>
+      </note>
+      <note grace-note="flam" hand="left" value="crotchet">
+        <location xpercent="0.8819614193211143" y="411.875"/>
+      </note>
+      <bar-line repeat="true" type="double-close">
+        <location xpercent="0.9909765267321254" y="411.875"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line repeat="true" type="double-open">
+        <location xpercent="0.0" y="494.25"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.04631839898076424" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0801256272734142" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.10410265002540274" y="494.25"/>
+      </note>
+      <note grace-note="flam" hand="right" value="demisemiquaver">
+        <location xpercent="0.13136729222520108" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.15139869904355457" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.16696183061615297" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.18252496218875144" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" single-beam="true" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.1980880937613498" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.21746966727613176" y="494.25"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.23506393069261175" y="494.25"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="494.25"/>
+      </bar-line>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.2774040609738495" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.292967192546448" y="494.25"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.30853032411904635" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.32677442083909786" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.3467381590705988" y="494.25"/>
+      </note>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.3774094314905282" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.409429349684876" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="quaver">
+        <location xpercent="0.4432365779775259" y="494.25"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="494.25"/>
+      </bar-line>
+      <note dot="true" grace-note="flam" hand="right" value="quaver">
+        <location xpercent="0.51295799821269" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="demisemiquaver">
+        <location xpercent="0.5805724547979898" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.6032848267637965" y="494.25"/>
+      </note>
+      <note accent="full" hand="right" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.668589313938674" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.6934599917398137" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7152787086564693" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.7308418402290676" y="494.25"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="494.25"/>
+      </bar-line>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.7619681033742645" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7837868202909201" y="494.25"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.7993499518635184" y="494.25"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.8248436103663985" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.8460177291417621" y="494.25"/>
+      </note>
+      <note hand="right" value="semiquaver">
+        <location xpercent="0.8891106597143226" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.9139813375154621" y="494.25"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="quaver">
+        <location xpercent="0.947788565808112" y="494.25"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.9990244893666242" y="494.25"/>
+      </bar-line>
+    </staff>
+    <staff>
+      <bar-line type="single">
+        <location xpercent="0.0" y="576.625"/>
+      </bar-line>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.017873100983020553" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.04631839898076424" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.0801256272734142" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.10410265002540274" y="576.625"/>
+      </note>
+      <note grace-note="flam" hand="right" value="demisemiquaver">
+        <location xpercent="0.13136729222520108" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.15139869904355457" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.16696183061615297" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.18252496218875144" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" single-beam="true" value="semiquaver">
+        <tie group-factor="3" group-level="0" type="start"/>
+        <location xpercent="0.1980880937613498" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.21746966727613176" y="576.625"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.23506393069261175" y="576.625"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.25" y="576.625"/>
+      </bar-line>
+      <note beam="true" hand="right" single-beam="true" value="demisemiquaver">
+        <location xpercent="0.26184092940125114" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.2774040609738495" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.292967192546448" y="576.625"/>
+      </note>
+      <note accent="full" beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.30853032411904635" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" single-beam="true" value="semiquaver">
+        <location xpercent="0.32677442083909786" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <location xpercent="0.3467381590705988" y="576.625"/>
+      </note>
+      <note grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.3774094314905282" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.409429349684876" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" single-beam="true" value="quaver">
+        <location xpercent="0.4432365779775259" y="576.625"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.5" y="576.625"/>
+      </bar-line>
+      <note buzz="true" grace-note="flam" hand="right" roll-strikes="2" value="quaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.51295799821269" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" value="semiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.5752105245030835" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="right" value="semiquaver">
+        <location xpercent="0.6000812023042231" y="576.625"/>
+      </note>
+      <note hand="left" value="semiquaver">
+        <location xpercent="0.6374630507934772" y="576.625"/>
+      </note>
+      <note beam="true" grace-note="flam" hand="left" value="semiquaver">
+        <location xpercent="0.6623337285946168" y="576.625"/>
+      </note>
+      <note beam="true" buzz="true" grace-note="flam" hand="right" roll-strikes="2" single-beam="true" value="semiquaver">
+        <tie group-factor="0" group-level="0" type="start"/>
+        <location xpercent="0.6934599917398137" y="576.625"/>
+      </note>
+      <note beam="true" buzz="true" hand="right" roll-strikes="2" value="semiquaver">
+        <location xpercent="0.7308418402290676" y="576.625"/>
+      </note>
+      <bar-line type="single">
+        <location xpercent="0.75" y="576.625"/>
+      </bar-line>
+      <note accent="full" hand="left" value="demisemiquaver">
+        <tie group-level="0" type="stop"/>
+        <location xpercent="0.7619681033742645" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.7769672678676207" y="576.625"/>
+      </note>
+      <note beam="true" hand="left" value="demisemiquaver">
+        <location xpercent="0.7919664323609769" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="demisemiquaver">
+        <location xpercent="0.8069655968543331" y="576.625"/>
+      </note>
+      <note accent="full" beam="true" hand="left" single-beam="true" value="semiquaver">
+        <location xpercent="0.8219647613476894" y="576.625"/>
+      </note>
+      <note beam="true" hand="right" value="semiquaver">
+        <location xpercent="0.8519630903344018" y="576.625"/>
+      </note>
+      <note grace-note="flam" hand="left" value="crotchet">
+        <location xpercent="0.8819614193211143" y="576.625"/>
+      </note>
+      <bar-line repeat="true" type="double-close">
+        <location xpercent="0.9909765267321254" y="576.625"/>
+      </bar-line>
+    </staff>
+  </manuscript>
+  <manuscript id="generated-time-sig-area" lines-visible="false" point-size="24.0">
+    <bounds height="34" width="32" x="29" y="14"/>
+    <staff>
+      <time-signature bottom="4" top="2" use-common="false">
+        <location xpercent="0.33000001311302185" y="0.0"/>
+      </time-signature>
+    </staff>
+  </manuscript>
+</score>
