@@ -8,6 +8,7 @@ install:
   - pip install awscli
 before_script:
   - npm install -g gulp
+  - npm install
 script:
   # Build your site (e.g., HTML, CSS, JS) here.
   - mkdir dist
