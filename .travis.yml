@@ -8,6 +8,8 @@ install:
   - pip install awscli
 script:
   # Build your site (e.g., HTML, CSS, JS) here.
+  - mkdir dist
+  - gulp build
   - ls -l
 deploy:
   # Control deployment by setting a value for `on`. Setting the `branch`
