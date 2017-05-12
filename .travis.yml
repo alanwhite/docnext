@@ -5,6 +5,8 @@ before_script:
   - npm install -g gulp
   - npm install -g gulp-cli
   - npm install
+  - npm install -g bower
+  - bower install
 script:
   # Build your site (e.g., HTML, CSS, JS) here.
   - mkdir dist
