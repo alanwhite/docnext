@@ -38,14 +38,16 @@
 									always show triplets below the staff note for example - by
 									specifying as a default preference it avoids having to set it
 									manually each time after a score is generated.</p>
-								<p>There are two major groupings of properties that can be
+								<p>There are 4 major groupings of properties that can be
 									set, the general attributes of a score such as the title,
 									author etc, and then the options which determine how the score
-									is represented such as unison colour or lines. All these are
+									is represented, then how unison is specified and then any watermark
+									(studio edition only). All these are
 									accessed through the File -> Properties menu item, or the
 									spanner icon on the toolbar, both of which, given this is all
 									about settings properties of a score, are only enabled if
 									there's a score loaded.</p>
+
 								<h5>Properties</h5>
 								<p>The first tab in the Score Properties dialog deals with
 									the core attributes of the score as shown.</p>
@@ -117,11 +119,7 @@
 										</tr>
 									</tbody>
 								</table>
-								<p>The content of all these variables is taken from the
-									score properties, accessed from the File -> Properties menu
-									option. When the score generator is used to create a new score
-									these are populated with answers provided by the user at
-									generation time.</p>
+
 								<h5>Options</h5>
 								<p>The options tab deals with various ways the score can be
 									represented.</p>
@@ -137,21 +135,8 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>Draw line above Unison</td>
-											<td>Setting this option results in a line being drawn
-												above any note or phrases marked as unison in the score</td>
-										</tr>
-										<tr>
-											<td>Use colour to highlight unison</td>
-											<td>Many drummers take a score and use a highlighter pen
-												to more easily see the unison sections. This option allows
-												Drum Score Editor to do that bit for you.</td>
-										</tr>
-										<tr>
-											<td>Colour to highlight unison</td>
-											<td>If you are going to use colour to highlight unison,
-												this lets you determine which colour will be used.</td>
-										</tr>
+
+
 										<tr>
 											<td>Change highlighter colours</td>
 											<td>Many authors use different highlight colours to mean
@@ -195,11 +180,84 @@
 										</tr>
 									</tbody>
 								</table>
-								<p>The content of all these variables is taken from the
-									score properties, accessed from the File -> Properties menu
-									option. When the score generator is used to create a new score
-									these are populated with answers provided by the user at
-									generation time.</p>
+
+								<h5>Unison</h5>
+								<p>The options tab deals with various ways unison can be
+									represented.</p>
+								<img src="assets/img/unisontab.png" />
+
+								<p></p>
+								<table>
+									<thead>
+										<tr>
+											<th width="200">Option</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody>
+										<td>Draw line above Unison</td>
+										<td>Setting this option results in a line being drawn
+											above any note or phrases marked as unison in the score</td>
+									</tr>
+										<tr>
+											<td>Use colour to highlight unison</td>
+											<td>Many drummers take a score and use a highlighter pen
+												to more easily see the unison sections. This option allows
+												Drum Score Editor to do that bit for you.</td>
+										</tr>
+										<tr>
+											<td>% Weight of unison highlight</td>
+											<td>Specified how see-through the virtual highlighter
+												marker for unison is, i.e. it's opacity.</td>
+										</tr>
+										<tr>
+											<td>Use thinner unison highlighter</td>
+											<td>Just highlight the note heads and elements above them.</td>
+										</tr>
+										<tr>
+											<td>Colour to highlight unison</td>
+											<td>If you are going to use colour to highlight unison,
+												this lets you determine which colour will be used.</td>
+										</tr>
+
+
+									</tbody>
+								</table>
+
+								<h5>Watermark (Studio Edition Only)</h5>
+								<p>The watermark tab deals with various ways a watermark can be
+									represented.</p>
+								<img src="assets/img/watermarktab.png" />
+
+								<p></p>
+								<table>
+									<thead>
+										<tr>
+											<th width="200">Option</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Use watermark</td>
+											<td>Whether any watermark should be shown</td>
+										</tr>
+										<tr>
+											<td>Watermark Text</td>
+											<td>The text to be used in any watermark.</td>
+										</tr>
+										<tr>
+											<td>Font Size</td>
+											<td>Specifies how big the watermark text will be.</td>
+										</tr>
+										<tr>
+											<td>% Weight of watermark</td>
+											<td>How heavy the watermark look on the page, i.e. it's opacity</td>
+										</tr>
+
+										</tbody>
+									</table>
+
 							</div>
 						</div>
 
@@ -208,7 +266,7 @@
 					</div>
 
 					{{> navigation}}
-					
+
 				</div>
 			</div>
 		</div>
