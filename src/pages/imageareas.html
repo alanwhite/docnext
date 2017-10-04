@@ -1,0 +1,79 @@
+
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<div class="expanded row">
+					<div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+						<a href="#docs-menu"
+							class="small secondary expanded button hide-for-medium">Jump
+							to Nav</a>
+
+
+						<header>
+							<div class="columns text-center">
+								<h1 class="docs-page-title">
+									Drum Score Editor <small>Image Areas</small>
+								</h1>
+								<h5 class="subheader">Areas containing an image that can be
+									placed anywhere the page of a score</h5>
+							</div>
+						</header>
+
+						<hr>
+
+
+
+
+						<div class="row">
+							<div class="columns">
+								<h5>Overview</h5>
+								<p>The intended purpose of the image areas is to allow the author
+								to add graphics to a score, e.g. a band logo.</p>
+								<p>No formatting of the image other than resizing it is supported.
+									It is recommended that the image is prepared using a professional
+									image editing toolset, and the image file then added here. Drum
+									Score Editor supports import of the following file types: jpeg, png,
+									bmp, wbmp and gif. Gif animation is not supported.</p>
+								<p>Please note that adding images to your score will make your saved score
+									file significantly bigger, and your computer will work much harder to
+									draw, print, export the scores, especially if including in mp4 movies.</p>
+								<h5>Creating Image Areas</h5>
+								<p>From the Insert Menu, licensed users will see the Insert Image Area menu item.</p>
+								<p>On selecting Insert Image Area, the score will become shaded and the mouse cursor
+									will become a cross-hair. Click with the mouse on the score where you want the top left hand corner
+									of the inserted image to be. The image can be moved and resized so precision isn't that
+									important at this stage.</p>
+									<p>Once you've chosen the location for the image, a dialog box will open
+									asking you to choose your image file. Click on the Open button and the selected
+								file will be imported to Drum Score Editor, and will appear at the chosen location.</p>
+								<h5>Moving Image Areas</h5>
+								<p>Ensure Edit -> Page has been selected, it should have been in order to insert the
+									image area, and click and hold the mouse button down, inside the image. Next,
+									drag the mouse in the direction required.</p>
+
+								<h5>Resizing Image Areas</h5>
+								<p>Ensure Edit -> Page has been selected, it should have been in order to insert the
+									image area, and click inside the image. A light blue border will appear with boxes in the
+										corners and sides.
+										Click and hold the mouse button down over a box and drag the mouse in the direction required.</p>
+										<p>Important to note is Drum Score Editor will force the aspect ratio of the image to stay the same.
+										This prevents altering the intended image in unintended ways!</p>
+										<h5>Technical Note</h5>
+										<p>You may notice the image be repainted after a short delay, when moving or resizing
+											the image area.</p>
+										</P>This is because Drum Score Editor maintains a copy of the original imported image, so that
+										when you want to resize it, it can resample the original image ensuring the best quality.
+										Without this feature, if you shrink an image, then make it bigger again, it will be fuzzy.</p>
+
+							</div>
+						</div>
+					</div>
+
+					{{> navigation}}
+
+				</div>
+			</div>
+		</div>
+	</div>
